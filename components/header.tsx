@@ -4,7 +4,7 @@ import { Icon } from "@iconify/react";
 const Header = () => {
   return (
     <section className="flex flex-row justify-between">
-      <div className="flex flex-row gap-12 text-xl md:text-3xl font-semibold tracking-tight md:tracking-tighter mb-20 mt-8">
+      <div className="flex flex-row gap-12 text-lg md:text-2xl font-semibold tracking-tight md:tracking-tighter mb-32 mt-8">
         <Link href="/" className="hover:underline">
           Allium
         </Link>
@@ -18,7 +18,7 @@ const Header = () => {
           About
         </Link>
       </div>
-      <div className="flex flex-row gap-8 text-xl md:text-3xl font-semibold tracking-tight md:tracking-tighter mb-20 mt-8">
+      <div className="flex flex-row gap-8 text-lg md:text-3xl font-semibold tracking-tight md:tracking-tighter mb-20 mt-8">
         <Link
           href="https://www.etsy.com/shop/AlliumApparel"
           target="_blank"
