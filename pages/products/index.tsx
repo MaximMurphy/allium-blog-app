@@ -8,12 +8,12 @@ export default function Index() {
     <>
       <Layout>
         <Head>
-          <title>Blogs</title>
+          <title>Products</title>
         </Head>
 
         <Container>
           <Header />
-          <p>Blogs</p>
+          <p>Products</p>
         </Container>
       </Layout>
     </>
