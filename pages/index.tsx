@@ -18,8 +18,8 @@ export default function Index({ allPosts }: Props) {
           <title>Allium</title>
         </Head>
 
+        <Header />
         <Container>
-          <Header />
           <div className="flex flex-col gap-24 mb-36">
             <h1 className="flex justify-center text-3xl md:text-5xl font-bold">
               🧑‍🍳 Hello, Chef!
