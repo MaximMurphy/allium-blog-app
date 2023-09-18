@@ -11,19 +11,19 @@ const Header = () => {
         </Link>
         <Link
           href="/posts"
-          className="hover:underline underline-offset-4 decoration-green-700"
+          className="hover:underline underline-offset-4 decoration-lime-800"
         >
           Blog
         </Link>
         <Link
           href="/products"
-          className="hover:underline underline-offset-4 decoration-green-700"
+          className="hover:underline underline-offset-4 decoration-lime-800"
         >
           Products
         </Link>
         <Link
           href="/about"
-          className="hover:underline underline-offset-4 decoration-green-700"
+          className="hover:underline underline-offset-4 decoration-lime-800"
         >
           About
         </Link>

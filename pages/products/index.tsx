@@ -10,9 +10,8 @@ export default function Index() {
         <Head>
           <title>Products</title>
         </Head>
-
+        <Header />
         <Container>
-          <Header />
           <p>Products</p>
         </Container>
       </Layout>
