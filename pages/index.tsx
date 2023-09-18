@@ -5,6 +5,7 @@ import { getAllPosts } from "../lib/api";
 import Head from "next/head";
 import Post from "../interfaces/post";
 import Header from "../components/header";
+import Image from "next/image";
 
 type Props = {
   allPosts: Post[];
@@ -20,10 +21,16 @@ export default function Index({ allPosts }: Props) {
 
         <Header />
         <Container>
-          <div className="flex flex-col gap-24 mb-36">
+          <div className="flex flex-col mb-24">
             <h1 className="flex justify-center text-3xl md:text-5xl font-bold">
               🧑‍🍳 Hello, Chef!
             </h1>
+            <Image
+              src="/branding/14.png"
+              width={7000}
+              height={2000}
+              alt="Allium"
+            />
             <p className="text-lg md:text-2xl">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
