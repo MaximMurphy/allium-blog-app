@@ -30,6 +30,7 @@ export default function Index({ allPosts }: Props) {
               width={7000}
               height={2000}
               alt="Allium"
+              className="w-96 md:w-fit"
             />
             <p className="text-lg md:text-2xl">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
