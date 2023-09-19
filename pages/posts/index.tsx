@@ -1,9 +1,17 @@
 import Container from "../../components/container";
+import MoreStories from "../../components/more-stories";
 import Layout from "../../components/layout";
+import { getAllPosts } from "../../lib/api";
 import Head from "next/head";
+import Post from "../../interfaces/post";
 import Header from "../../components/header";
+import Image from "next/image";
 
-export default function Index() {
+type Props = {
+  allPosts: Post[];
+};
+
+export default function Index({ allPosts }: Props) {
   return (
     <>
       <Layout>
@@ -13,9 +21,34 @@ export default function Index() {
         <Header />
 
         <Container>
-          <p>Blogs</p>
+          <div className="flex justify-center ">
+            <Image
+              src="/branding/tabs/2.png"
+              height={500}
+              width={2500}
+              alt="Posts"
+              className="w-96"
+            ></Image>
+          </div>
+
+          {allPosts.length > 0 && <MoreStories posts={allPosts} />}
         </Container>
       </Layout>
     </>
   );
 }
+
+export const getStaticProps = async () => {
+  const allPosts = getAllPosts([
+    "title",
+    "date",
+    "slug",
+    "author",
+    "coverImage",
+    "excerpt",
+  ]);
+
+  return {
+    props: { allPosts },
+  };
+};

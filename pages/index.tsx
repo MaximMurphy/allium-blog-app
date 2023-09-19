@@ -6,6 +6,7 @@ import Head from "next/head";
 import Post from "../interfaces/post";
 import Header from "../components/header";
 import Image from "next/image";
+import Link from "next/link";
 
 type Props = {
   allPosts: Post[];
@@ -32,7 +33,7 @@ export default function Index({ allPosts }: Props) {
               alt="Allium"
               className="w-96 md:w-fit"
             />
-            <p className="text-lg md:text-2xl">
+            <p className="text-2xl md:text-4xl">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -49,6 +50,9 @@ export default function Index({ allPosts }: Props) {
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </div>
+          <Link href="/posts" className="text-2xl md:text-4xl font-semibold">
+            Blogs →
+          </Link>
           {allPosts.length > 0 && <MoreStories posts={allPosts} />}
         </Container>
       </Layout>
