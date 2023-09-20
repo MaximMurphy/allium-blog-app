@@ -38,20 +38,52 @@ export default function Index({ allPosts }: Props) {
               width={7000}
               height={2000}
               alt="Allium"
-              className="w-96 md:w-fit"
+              className="w-96 md:w-fit lg:-mt-6 mb-8 lg:mb-0"
             />
-            <p className="p-4 lg:p-8 bg-neutral-50 border-2 border-neutral-200 rounded-xl text-2xl drop-shadow-md md:text-4xl text-justify">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <p className="p-4 lg:p-8 bg-neutral-50 border-2 border-neutral-200 rounded-xl text-2xl drop-shadow-md md:text-4xl text-justify mb-12">
+              At Allium, our brand is a testament to our deep-rooted passion for
+              food. With a culinary background, we recognize the indispensable
+              role of Alliums like Garlic and Onions in the culinary realm.
             </p>
+            <section className="flex flex-col lg:flex-row justify-center gap-12 lg:gap-48 px-4 py-8 lg:p-8 bg-neutral-50 border-2 border-neutral-200 rounded-xl text-2xl drop-shadow-md md:text-4xl text-center font-semibold">
+              <div>
+                <p>For merchandise:</p>
+                <Link
+                  href="https://www.etsy.com/shop/AlliumApparel"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-orange-600"
+                >
+                  <Image
+                    src="/branding/etsy.png"
+                    width={2500}
+                    height={500}
+                    alt="Alt Etsy"
+                    className="w-96 mt-4 lg:mt-8 hover:animate-pulse"
+                  ></Image>
+                </Link>
+              </div>
+              <div>
+                <p>For inspiration:</p>
+                <Link
+                  href="https://www.pinterest.com/alliumlover/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-red-600 hover:animate-pulse"
+                >
+                  <Image
+                    src="/branding/pinterest.png"
+                    width={2500}
+                    height={500}
+                    alt="Alt Etsy"
+                    className="w-96 mt-4 lg:mt-8"
+                  ></Image>
+                </Link>
+              </div>
+            </section>
           </div>
           <Link href="/posts" className="text-2xl md:text-4xl font-semibold">
-            Blogs →
+            Blogs→
           </Link>
           {allPosts.length > 0 && <MoreStories posts={allPosts} />}
         </Container>

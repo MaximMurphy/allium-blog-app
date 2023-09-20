@@ -28,7 +28,7 @@ const Header = () => {
           About
         </Link>
       </div>
-      <div className="hidden md:flex flex-row gap-8 text-lg md:text-3xl font-semibold tracking-tight md:tracking-tighter mt-8">
+      <div className="hidden md:flex flex-row gap-8 text-lg md:text-3xl font-semibold mt-6">
         <Link
           href="https://www.etsy.com/shop/AlliumApparel"
           target="_blank"

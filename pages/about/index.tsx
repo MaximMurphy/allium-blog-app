@@ -14,7 +14,7 @@ export default function Index() {
         <Header />
 
         <Container>
-          <div className="flex justify-center mb-12">
+          <div className="flex flex-col items-center mb-12">
             <Image
               src="/branding/tabs/4.png"
               height={500}
@@ -22,36 +22,44 @@ export default function Index() {
               alt="Posts"
               className="w-96"
             ></Image>
+            <Image
+              src="/branding/alliums.png"
+              height={2500}
+              width={1000}
+              alt="Allium Vegetables"
+              className="w-full"
+            ></Image>
           </div>
-          <div className="text-justify text-2xl lg:text-4xl flex flex-col gap-12 mb-24">
-            <p className="h-fit leading-normal">
-              Welcome to Allium, where our love for food meets fashion,
-              functionality, and the art of culinary exploration.
+          <div className="text-justify text-2xl lg:text-4xl flex flex-col gap-4 mb-24">
+            <p className="h-fit leading-normal font-semibold">
+              What are Alliums?
+            </p>
+            <p className="h-fit leading-normal mb-12">
+              This diverse botanical family includes onions, garlic, scallions,
+              shallots, and leeks, all bearing the Latin name{" "}
+              <span className="italic font-medium">Allium</span>, which directly
+              translates to <span className="italic font-medium">Garlic</span>.
+              As a collection of edible and aromatic plants, Alliums are known
+              for their rich flavors, pungent aromas, and essential role in
+              cuisines worldwide. Beyond flavor, these humble flowering plants
+              offer a treasure trove of health benefits, including
+              cardiovascular protection, anti-cancer properties, and
+              anti-inflammatory effects, thanks to sulfur compounds and
+              polyphenols like quercetin.
+            </p>
+            <p className="h-fit leading-normal mb-8">
+              At Allium, our brand is a testament to our deep-rooted passion for
+              food. With a culinary background, we recognize the essential role
+              of Alliums like Garlic and Onions in the world of food.
+            </p>
+            <p className="h-fit leading-normal mb-8">
+              We're dedicated to discovering the best products for all budgets
+              and curating a selection to elevate your kitchen life. Our
+              comprehensive reviews help you make informed choices.
             </p>
             <p className="h-fit leading-normal">
-              At Allium, our journey begins with an unwavering passion for all
-              things culinary. We believe the kitchen is a canvas for creativity
-              and flavor, inspiring our every endeavor.
-            </p>
-            <p className="h-fit leading-normal">
-              We're dedicated to unearthing the finest kitchen products. Our
-              mission is simple: to guide you to the pinnacle of culinary
-              excellence. Our meticulous reviews help you make informed choices.
-            </p>
-            <p className="h-fit leading-normal">
-              Discover our culinary-inspired fashion line on Etsy, where we
-              bring the art of food to life in every stitch. From playful food
-              puns to stylish culinary characters, our designs redefine culinary
-              couture.
-            </p>
-            <p className="h-fit leading-normal">
-              For recipe and kitchen inspiration, be sure to check out our
-              Pinterest page.
-            </p>
-            <p className="h-fit leading-normal">
-              Allium is more than a brand; it's a celebration of culinary
-              artistry and creativity. Thank you for being a part of our
-              culinary family.
+              Discover our food-inspired merchandise on Etsy. For recipe and
+              kitchen inspiration, be sure to check out our Pinterest page.
             </p>
           </div>
         </Container>
