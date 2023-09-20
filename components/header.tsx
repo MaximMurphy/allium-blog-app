@@ -4,8 +4,8 @@ import { Icon } from "@iconify/react";
 
 const Header = () => {
   return (
-    <section className="bg-white/60 top-0 z-50 sticky backdrop-blur-sm h-fit w-full flex flex-row justify-between mb-12 md:mb-24 px-12 md:px-32 pb-4 pt-4">
-      <div className="flex flex-row gap-4 md:gap-12 text-lg md:text-2xl items-center font-semibold tracking-tight md:tracking-tighter">
+    <section className="bg-white/60 top-0 z-50 sticky backdrop-blur-sm h-fit w-full flex flex-row justify-between mb-8 px-12 lg:px-32 pb-4 pt-4">
+      <div className="flex flex-row gap-4 lg:gap-12 text-lg lg:text-2xl items-center font-semibold tracking-tight lg:tracking-tighter">
         <Link href="/">
           <Image src="/branding/10.png" width={75} height={75} alt="Allium" />
         </Link>

@@ -50,7 +50,7 @@ export default function Index() {
             </div>
             <div>
               {data && (
-                <ul className="grid grid-cols-3 gap-4">
+                <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   {Object.values(data).map((product: any) => (
                     <li
                       key={product.id}
