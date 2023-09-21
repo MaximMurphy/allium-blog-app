@@ -71,11 +71,11 @@ export default function Index() {
                             <div className="text-lg font-semibold">
                               {product.name}
                             </div>
-                            <div className="text-gray-600 mb-2">
+                            <div className="text-sm text-neutral-800 mb-2">
                               {product.description}
                             </div>
                           </div>
-                          <div className="text-lime-800 font-semibold mt-6">
+                          <div className="text-base text-lime-800 font-semibold mt-6">
                             {product.price}
                           </div>
                         </div>
