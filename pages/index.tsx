@@ -23,7 +23,7 @@ export default function Index({ allPosts }: Props) {
         <Header />
         <Container>
           <div className="flex flex-col mb-24">
-            <div className="flex justify-center">
+            <div className="flex justify-center lg:mt-8">
               <Image
                 src="/branding/16.png"
                 width={2500}
@@ -38,13 +38,22 @@ export default function Index({ allPosts }: Props) {
               width={7000}
               height={2000}
               alt="Allium"
-              className="w-96 md:w-fit lg:-mt-6 mb-8 lg:mb-0"
+              className="w-96 md:w-fit lg:-mt-6 mb-6 lg:mb-0"
             />
-            <p className="p-4 lg:p-8 bg-neutral-50 border-2 border-neutral-200 rounded-xl text-2xl drop-shadow-md md:text-4xl text-justify mb-12">
-              At Allium, our brand is a testament to our deep-rooted passion for
-              food. With a culinary background, we recognize the indispensable
-              role of Alliums like Garlic and Onions in the culinary realm.
-            </p>
+            <div className="p-6 lg:p-8 bg-neutral-50 border-2 border-neutral-200 rounded-xl mb-12 drop-shadow-md">
+              <p className="text-2xl md:text-4xl text-justify mb-8">
+                At Allium, our brand is a testament to our deep-rooted passion
+                for food. We recognize the essential role of Alliums like Garlic
+                and Onions in the culinary realm and aim to celebrate them
+                through our company.
+              </p>
+              <Link href="/about" className="text-md md:text-xl font-medium">
+                <p className="p-2 border-2 border-lime-800 rounded-xl w-fit bg-lime-800 hover:bg-neutral-50 text-white hover:text-black">
+                  More info
+                </p>
+              </Link>
+            </div>
+
             <section className="flex flex-col lg:flex-row justify-center gap-12 lg:gap-48 px-4 py-8 lg:p-8 bg-neutral-50 border-2 border-neutral-200 rounded-xl text-2xl drop-shadow-md md:text-4xl text-center font-semibold">
               <div>
                 <p>For merchandise:</p>
@@ -82,8 +91,11 @@ export default function Index({ allPosts }: Props) {
               </div>
             </section>
           </div>
-          <Link href="/posts" className="text-2xl md:text-4xl font-semibold">
-            Blogs→
+          <Link
+            href="/posts"
+            className="text-2xl md:text-4xl font-semibold hover:underline underline-offset-4 decoration-lime-800"
+          >
+            Blog
           </Link>
           {allPosts.length > 0 && <MoreStories posts={allPosts} />}
         </Container>

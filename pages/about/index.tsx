@@ -48,13 +48,8 @@ export default function Index() {
               polyphenols like quercetin.
             </p>
             <p className="h-fit leading-normal mb-8">
-              At Allium, our brand is a testament to our deep-rooted passion for
-              food. With a culinary background, we recognize the essential role
-              of Alliums like Garlic and Onions in the world of food.
-            </p>
-            <p className="h-fit leading-normal mb-8">
-              We're dedicated to discovering the best products for all budgets
-              and curating a selection to elevate your kitchen life. Our
+              We're dedicated to finding the best products for all budgets and
+              curating a selection to elevate your kitchen life. Our
               comprehensive reviews help you make informed choices.
             </p>
             <p className="h-fit leading-normal">
