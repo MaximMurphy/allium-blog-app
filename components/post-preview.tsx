@@ -16,11 +16,11 @@ const PostPreview = ({ title, coverImage, date, excerpt, slug }: Props) => {
       <div className="mb-5">
         <CoverImage slug={slug} title={title} src={coverImage} />
       </div>
-      <h3 className="text-3xl mb-3 leading-snug">
+      <h3 className="text-3xl mb-3 leading-snug font-medium">
         <Link
           as={`/posts/${slug}`}
           href="/posts/[slug]"
-          className="hover:underline"
+          className="hover:underline decoration-lime-800"
         >
           {title}
         </Link>

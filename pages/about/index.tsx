@@ -9,7 +9,7 @@ export default function Index() {
     <>
       <Layout>
         <Head>
-          <title>About</title>
+          <title>About Us</title>
         </Head>
         <Header />
 
@@ -19,7 +19,7 @@ export default function Index() {
               src="/branding/tabs/4.png"
               height={500}
               width={2500}
-              alt="Posts"
+              alt="About Us"
               className="w-96"
             ></Image>
             <Image

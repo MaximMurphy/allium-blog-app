@@ -93,7 +93,7 @@ export default function Index({ allPosts }: Props) {
           </div>
           <Link
             href="/posts"
-            className="text-2xl md:text-4xl font-semibold hover:underline underline-offset-4 decoration-lime-800"
+            className="text-3xl md:text-5xl font-semibold hover:underline underline-offset-4 decoration-lime-800"
           >
             Blog
           </Link>

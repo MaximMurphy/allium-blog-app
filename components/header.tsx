@@ -22,13 +22,6 @@ const Header = () => {
           >
             Products
           </Link>
-
-          <Link
-            href="/about"
-            className="hover:underline underline-offset-4 decoration-lime-800 hidden md:flex"
-          >
-            About
-          </Link>
         </div>
         <div className="hidden md:flex flex-row gap-8 text-lg md:text-3xl font-semibold mt-6">
           <Link
