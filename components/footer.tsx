@@ -18,9 +18,15 @@ const Footer = () => {
               className="h-fit"
             />
           </Link>
-          <p className="hidden md:flex w-fit md:mt-4 text-xs">
-            © 2023 AlliumApparel. All rights reserved.
-          </p>
+          <div className="hidden lg:flex flex-col gap-2 items-center">
+            <p className="w-fit text-xs">
+              As an Amazon Associate I earn from qualifying purchases.
+            </p>
+            <p className="w-fit text-xs">
+              © 2023 AlliumApparel. All rights reserved.
+            </p>
+          </div>
+
           <div className="w-fit flex flex-row gap-8 text-xl md:text-3xl font-semibold">
             <Link
               href="https://www.etsy.com/shop/AlliumApparel"
@@ -39,9 +45,14 @@ const Footer = () => {
               <Icon icon="simple-icons:pinterest" className="w-8 h-8" />
             </Link>
           </div>
-          <p className="md:hidden w-fit md:mt-4 text-xs">
-            © 2023 AlliumApparel. All rights reserved.
-          </p>
+          <div className="lg:hidden flex flex-col gap-2 items-center text-center">
+            <p className="w-fit text-xs">
+              As an Amazon Associate I earn from qualifying purchases.
+            </p>
+            <p className="w-fit text-xs">
+              © 2023 AlliumApparel. All rights reserved.
+            </p>
+          </div>
         </div>
       </Container>
     </footer>

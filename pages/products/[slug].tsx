@@ -78,6 +78,9 @@ export default function ProductPage() {
               Buy on Amazon
             </Link>
           </div>
+          <p className="text-neutral-800 font-light italic text-xs text-center lg:text-start">
+            *This is an affiliate link*
+          </p>
         </div>
       </div>
     </Layout>
