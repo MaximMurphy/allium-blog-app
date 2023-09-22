@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import Container from "../../components/container";
 import Layout from "../../components/layout";
 import Head from "next/head";
@@ -67,7 +66,7 @@ export default function Index() {
                               {product.name}
                             </div>
                             <div className="text-sm text-neutral-800 mb-2">
-                              {product.description}
+                              {product.excerpt}
                             </div>
                           </div>
                           <div className="text-base text-lime-800 font-semibold mt-6">
