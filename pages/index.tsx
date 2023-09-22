@@ -31,6 +31,7 @@ export default function Index({ allPosts }: Props) {
                 alt="Hello, Chef!"
                 className="w-72 lg:w-[32rem]"
                 quality={65}
+                priority={true}
               />
             </div>
 
@@ -40,6 +41,7 @@ export default function Index({ allPosts }: Props) {
               height={2000}
               alt="Allium"
               className="w-96 md:w-fit lg:-mt-6 mb-6 lg:mb-0"
+              priority={true}
               quality={65}
             />
             <div className="p-6 lg:p-8 bg-neutral-50 border-2 border-neutral-200 rounded-xl mb-12 drop-shadow-md">

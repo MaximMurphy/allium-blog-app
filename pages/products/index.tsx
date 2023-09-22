@@ -5,30 +5,19 @@ import Head from "next/head";
 import Header from "../../components/header";
 import Image from "next/image";
 import Link from "next/link";
+import useSWR from "swr";
+
+const fetcher = (url: any) => fetch(url).then((response) => response.json());
 
 export default function Index() {
-  const [data, setData] = useState<any>(null); // Replace 'any' with your data structure type
+  // Use SWR for data fetching
+  const { data, error } = useSWR(
+    "https://api.jsonsilo.com/public/28963166-31f3-4ed6-9a02-e0547b884b87",
+    fetcher
+  );
 
-  useEffect(() => {
-    // Define the API URL
-    const apiUrl =
-      "https://api.jsonsilo.com/public/28963166-31f3-4ed6-9a02-e0547b884b87";
-
-    // Fetch the data
-    fetch(apiUrl)
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("Network response was not ok");
-        }
-        return response.json();
-      })
-      .then((responseData) => {
-        setData(responseData); // Set the data in state
-      })
-      .catch((error) => {
-        console.error("Error fetching data:", error);
-      });
-  }, []);
+  // Check if data is being fetched
+  const isLoading = !data && !error;
 
   return (
     <>
@@ -50,7 +39,11 @@ export default function Index() {
               ></Image>
             </div>
             <div>
-              {data && (
+              {isLoading ? (
+                <div className="flex justify-center">
+                  <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-lime-800"></div>
+                </div>
+              ) : (
                 <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   {Object.values(data).map((product: any) => (
                     <li

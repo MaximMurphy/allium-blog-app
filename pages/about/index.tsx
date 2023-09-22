@@ -30,7 +30,7 @@ export default function Index() {
               width={1000}
               alt="Allium Vegetables"
               className="w-full"
-              quality={65}
+              priority={true}
             ></Image>
           </div>
           <div className="text-justify text-2xl lg:text-4xl flex flex-col gap-4 mb-24">
