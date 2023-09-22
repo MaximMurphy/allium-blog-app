@@ -30,6 +30,7 @@ export default function Index({ allPosts }: Props) {
                 height={500}
                 alt="Hello, Chef!"
                 className="w-72 lg:w-[32rem]"
+                quality={65}
               />
             </div>
 
@@ -39,6 +40,7 @@ export default function Index({ allPosts }: Props) {
               height={2000}
               alt="Allium"
               className="w-96 md:w-fit lg:-mt-6 mb-6 lg:mb-0"
+              quality={65}
             />
             <div className="p-6 lg:p-8 bg-neutral-50 border-2 border-neutral-200 rounded-xl mb-12 drop-shadow-md">
               <p className="text-2xl md:text-4xl text-justify mb-8">
@@ -67,8 +69,9 @@ export default function Index({ allPosts }: Props) {
                     src="/branding/etsy.png"
                     width={2500}
                     height={500}
-                    alt="Alt Etsy"
+                    alt="Etsy"
                     className="w-96 mt-4 lg:mt-8 hover:animate-pulse"
+                    quality={65}
                   ></Image>
                 </Link>
               </div>
@@ -84,8 +87,9 @@ export default function Index({ allPosts }: Props) {
                     src="/branding/pinterest.png"
                     width={2500}
                     height={500}
-                    alt="Alt Etsy"
+                    alt="Pinterest"
                     className="w-96 mt-4 lg:mt-8"
+                    quality={65}
                   ></Image>
                 </Link>
               </div>

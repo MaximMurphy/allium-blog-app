@@ -28,6 +28,7 @@ export default function Index({ allPosts }: Props) {
               width={2500}
               alt="Posts"
               className="w-96"
+              quality={65}
             ></Image>
           </div>
 

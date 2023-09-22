@@ -46,6 +46,7 @@ export default function Index() {
                 width={2500}
                 alt="Posts"
                 className="w-96"
+                quality={65}
               ></Image>
             </div>
             <div>
@@ -63,6 +64,7 @@ export default function Index() {
                             alt={product.name}
                             height={200}
                             width={200}
+                            quality={65}
                             className="h-72 object-scale-down flex justify-center"
                           />
                         </div>

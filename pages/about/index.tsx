@@ -21,6 +21,8 @@ export default function Index() {
               width={2500}
               alt="About Us"
               className="w-96"
+              priority={true}
+              quality={65}
             ></Image>
             <Image
               src="/branding/alliums.png"
@@ -28,6 +30,7 @@ export default function Index() {
               width={1000}
               alt="Allium Vegetables"
               className="w-full"
+              quality={65}
             ></Image>
           </div>
           <div className="text-justify text-2xl lg:text-4xl flex flex-col gap-4 mb-24">
