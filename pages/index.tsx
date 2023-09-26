@@ -18,6 +18,10 @@ export default function Index({ allPosts }: Props) {
       <Layout>
         <Head>
           <title>Allium</title>
+          <meta
+            name="p:domain_verify"
+            content="5fd45743fca9f7e5cc6a1a7f78f9e4a0"
+          />
         </Head>
 
         <Header />

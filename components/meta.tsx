@@ -1,5 +1,4 @@
 import Head from "next/head";
-import { CMS_NAME, HOME_OG_IMAGE_URL } from "../lib/constants";
 
 const Meta = () => {
   return (
@@ -36,6 +35,7 @@ const Meta = () => {
         name="description"
         content="A site for kitchen inspiration from product reviews to food-related merch."
       />
+      <meta name="p:domain_verify" content="5fd45743fca9f7e5cc6a1a7f78f9e4a0" />
     </Head>
   );
 };
