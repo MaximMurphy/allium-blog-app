@@ -1,0 +1,102 @@
+{
+  "product1": {
+    "id": 1,
+    "link": "https://amzn.to/3PSiFhf",
+    "name": "Cuisinart AirFryer Oven & Grill",
+    "slug": "cuisinart-air-fryer",
+    "image": "/products/cuisinart-air-fryer.jpg",
+    "price": "$166.69",
+    "excerpt": "Revolutionize your cooking with Cuisinart's AirFryer Oven & Grill.",
+    "description": "Upgrade your kitchen game with Cuisinart’s Air Fryer Toaster Oven with Grill. Sear steaks, grill breakfast, and bake cookies, all in one versatile appliance."
+  },
+  "product2": {
+    "id": 2,
+    "link": "https://amzn.to/3Lyglty",
+    "name": "Ninja Air Fryer",
+    "slug": "ninja-air-fryer",
+    "image": "/products/nina-air-fryer.jpg",
+    "price": "$99.99",
+    "excerpt": "Cook faster with the Ninja Air Fryer.",
+    "description": "Skip preheating and savor quick, crispy meals with the Ninja Air Fryer. It's all about even hot air circulation and flavorful results!"
+  },
+  "product3": {
+    "id": 3,
+    "link": "https://amzn.to/3LCQpgq",
+    "name": "Keurig K-Elite Coffee Maker",
+    "slug": "keurig-coffee-maker",
+    "image": "/products/keurig.jpg",
+    "price": "$119.99",
+    "excerpt": "Brew your perfect cup with Keurig's K-Elite Coffee Maker.",
+    "description": "Experience modern design and customizable coffee with the Keurig K-Elite brewer. It's all about that striking brushed finish and a refreshing iced coffee option!"
+  },
+  "product4": {
+    "id": 4,
+    "link": "https://amzn.to/3EUxE4a",
+    "name": "Keurig K-Classic Coffee Maker",
+    "slug": "keurig-k-classic-coffee-maker",
+    "image": "/products/keurig-2.jpg",
+    "price": "$99.99",
+    "excerpt": "Enjoy hassle-free coffee with the Keurig K-Classic Coffee Maker.",
+    "description": "Brewing's a breeze with the Keurig K-Classic. Choose your cup size, flavor, and let the 48oz reservoir do the rest."
+  },
+  "product5": {
+    "id": 5,
+    "link": "https://amzn.to/3taeTqQ",
+    "name": "Cuisinart 15-Piece Carbon Steel Knife Set",
+    "slug": "cuisinart-knife-set",
+    "image": "/products/cuisinart-knife-block.jpg",
+    "price": "$99.95",
+    "excerpt": "Elevate your kitchen with Cuisinart's 15-Piece Knife Set.",
+    "description": "Precision and style unite in the Cuisinart Classic Forged Triple Rivet Cutlery. This 15-piece set is all about superior blades and perfect stability."
+  },
+  "product6": {
+    "id": 6,
+    "link": "https://amzn.to/3thKQgI",
+    "name": "Chicago Cutlery Insignia Stainless Steel Knife Set",
+    "slug": "chicago-cutlery-knife-set",
+    "image": "/products/chicago-knife-block.jpg",
+    "price": "$93.00",
+    "excerpt": "Level up your cutlery with Chicago Cutlery's 18-Piece Knife Set.",
+    "description": "Quality meets durability in the Chicago Cutlery Insignia set. Enjoy sharp, stain-resistant blades and the convenience of a built-in sharpener."
+  },
+  "product7": {
+    "id": 7,
+    "link": "https://amzn.to/3ZvNdsu",
+    "name": "HUNTER Dishwasher Safe Knife Set with Sharpener",
+    "slug": "hunter-knife-set",
+    "image": "/products/hunter-knife-block.jpg",
+    "price": "$39.99",
+    "excerpt": "Upgrade your kitchen with the HUNTER Dishwasher Safe Knife Set.",
+    "description": "Say hello to stain-resistant, rust-free knives. This 24-piece set includes everything you need, from chef's knives to a built-in sharpener."
+  },
+  "product8": {
+    "id": 8,
+    "link": "https://amzn.to/3PTSiYA",
+    "name": "Mueller Austria Immersion Multi-Purpose Hand Blender",
+    "slug": "mueller-immersion-blender",
+    "image": "/products/mueller-immersion-blender.jpg",
+    "price": "$29.97",
+    "excerpt": "Blend, froth, and whisk with the Mueller Austria Hand Blender.",
+    "description": "Meet your culinary multitool. The Mueller Austria Immersion Hand Blender makes blending, chopping, and whipping a breeze. It even comes with frother and whisk attachments!"
+  },
+  "product9": {
+    "id": 9,
+    "link": "https://amzn.to/457BNMH",
+    "name": "CAROTE Nonstick Granite Cookware Set",
+    "slug": "carote-cookware-set",
+    "image": "/products/carote-pan-set.jpg",
+    "price": "$79.99",
+    "excerpt": "Upgrade your cookware with CAROTE's Nonstick Granite Set.",
+    "description": "Experience 10x Ultra Non-stick performance with CAROTE's granite pan set. Your recipes deserve this level of star treatment."
+  },
+  "product10": {
+    "id": 10,
+    "link": "https://amzn.to/48oU3UV",
+    "name": "Cuisinart Round Classic Waffle Maker",
+    "slug": "cuisinart-waffle-maker",
+    "image": "/products/cuisinart-waffle-maker.jpg",
+    "price": "$29.95",
+    "excerpt": "Revolutionize your waffles with the Cuisinart Round Classic Waffle Maker.",
+    "description": "Bake perfect waffles in no time with this stainless steel beauty. It's all about nonstick plates, browning control, and breakfast innovation."
+  }
+}

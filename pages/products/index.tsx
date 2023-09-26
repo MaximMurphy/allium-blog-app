@@ -43,43 +43,49 @@ export default function Index() {
                   <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-lime-800"></div>
                 </div>
               ) : (
-                <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                  {Object.values(data).map((product: any) => (
-                    <li
-                      key={product.id}
-                      className="border-2 p-4 rounded-lg hover:shadow-inner hover:shadow-neutral-500 transition duration-300 bg-neutral-50 border-neutral-200"
-                    >
-                      <Link href={product.link} target="_blank">
-                        <div className="flex justify-center">
-                          <Image
-                            src={product.image}
-                            alt={product.name}
-                            height={200}
-                            width={200}
-                            quality={65}
-                            className="h-72 object-scale-down flex justify-center"
-                          />
-                        </div>
-                        <div className="flex flex-row justify-between">
-                          <div>
-                            <div className="text-lg font-semibold">
-                              {product.name}
+                <>
+                  <p className="text-base text-center lg:text-start lg:text-xl font-semibold mb-4">
+                    My recommended Amazon products:
+                  </p>
+
+                  <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    {Object.values(data).map((product: any) => (
+                      <li
+                        key={product.id}
+                        className="border-2 p-4 rounded-lg hover:shadow-inner hover:shadow-neutral-500 transition duration-300 bg-neutral-50 border-neutral-200"
+                      >
+                        <Link href={product.link} target="_blank">
+                          <div className="flex justify-center">
+                            <Image
+                              src={product.image}
+                              alt={product.name}
+                              height={200}
+                              width={200}
+                              quality={65}
+                              className="h-72 object-scale-down flex justify-center"
+                            />
+                          </div>
+                          <div className="flex flex-row justify-between gap-2">
+                            <div>
+                              <div className="text-lg font-semibold">
+                                {product.name}
+                              </div>
+                              <div className="text-sm text-neutral-800 mb-2">
+                                {product.excerpt}
+                              </div>
                             </div>
-                            <div className="text-sm text-neutral-800 mb-2">
-                              {product.excerpt}
+                            <div className="text-base text-lime-800 font-semibold mt-6">
+                              {product.price}
                             </div>
                           </div>
-                          <div className="text-base text-lime-800 font-semibold mt-6">
-                            {product.price}
-                          </div>
-                        </div>
-                        <p className="text-neutral-800 font-light italic text-xs text-center mt-4">
-                          *This is an affiliate link*
-                        </p>
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
+                          <p className="text-neutral-800 font-light italic text-xs text-center mt-4">
+                            *This is an affiliate link*
+                          </p>
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </>
               )}
             </div>
           </div>
