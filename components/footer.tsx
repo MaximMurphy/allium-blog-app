@@ -6,7 +6,7 @@ import { Icon } from "@iconify/react";
 
 const Footer = () => {
   return (
-    <footer className="bg-neutral-50 border-t border-neutral-200">
+    <footer className="bg-allium-lightbrown border-t border-neutral-200 text-allium-cream">
       <Container>
         <div className="flex flex-col lg:flex-row items-center justify-center gap-6 lg:gap-72 py-12">
           <Link href="/">
@@ -32,7 +32,7 @@ const Footer = () => {
               href="https://www.etsy.com/shop/AlliumApparel"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:underline hover:text-orange-600"
+              className="hover:underline hover:text-orange-600 transition ease-in-out duration-300"
             >
               <Icon icon="simple-icons:etsy" />
             </Link>
@@ -40,7 +40,7 @@ const Footer = () => {
               href="https://www.pinterest.com/alliumlover/"
               target="_blank"
               rel="noopener noreferrer"
-              className="-mt-2 md:mt-0 hover:underline hover:text-red-600"
+              className="-mt-2 md:mt-0 hover:underline hover:text-red-600 transition ease-in-out duration-300"
             >
               <Icon icon="simple-icons:pinterest" className="w-8 h-8" />
             </Link>
@@ -50,7 +50,7 @@ const Footer = () => {
               As an Amazon Associate I earn from qualifying purchases.
             </p>
             <p className="w-fit text-xs">
-              © 2023 AlliumApparel. All rights reserved.
+              © 2024 AlliumApparel. All rights reserved.
             </p>
           </div>
         </div>
