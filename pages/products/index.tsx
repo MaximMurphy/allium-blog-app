@@ -52,7 +52,7 @@ export default function Index() {
                     {Object.values(data).map((product: any) => (
                       <li
                         key={product.id}
-                        className="border-2 p-4 rounded-lg hover:shadow-inner hover:shadow-neutral-500 transition duration-300 bg-neutral-50 border-neutral-200"
+                        className="border-2 p-4 rounded-lg hover:shadow-inner hover:shadow-allium-lightbrown transition duration-300 bg-white border-allium-lightbrown"
                       >
                         <Link href={product.link} target="_blank">
                           <div className="flex justify-center">

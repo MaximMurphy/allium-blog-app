@@ -6,7 +6,7 @@ import { Icon } from "@iconify/react";
 
 const Footer = () => {
   return (
-    <footer className="bg-allium-lightbrown border-t border-neutral-200 text-allium-cream">
+    <footer className="bg-allium-lightbrown border-t-2 border-allium-darkbrown text-allium-cream">
       <Container>
         <div className="flex flex-col lg:flex-row items-center justify-center gap-6 lg:gap-72 py-12">
           <Link href="/">

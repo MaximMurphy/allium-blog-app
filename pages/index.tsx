@@ -48,7 +48,7 @@ export default function Index({ allPosts }: Props) {
               priority={true}
               quality={65}
             />
-            <div className="p-6 lg:p-8 bg-neutral-50 border-2 border-neutral-200 rounded-xl mb-12 drop-shadow-sm">
+            <div className="p-6 lg:p-8 bg-allium-lightbrown border-2 border-allium-darkbrown rounded-xl mb-12 drop-shadow-sm text-allium-cream">
               <p className="text-2xl md:text-4xl text-justify mb-8">
                 At Allium, our brand is a testament to our deep-rooted passion
                 for food. We recognize the essential role of Alliums like Garlic
@@ -56,13 +56,13 @@ export default function Index({ allPosts }: Props) {
                 through our company.
               </p>
               <Link href="/about" className="text-md md:text-xl font-medium">
-                <p className="p-2 border-2 border-lime-800 rounded-xl w-fit bg-lime-800 hover:bg-neutral-50 text-white hover:text-black transition ease-in-out duration-300">
+                <p className="p-2 border-2 border-lime-800 rounded-xl w-fit bg-lime-800 hover:bg-allium-lightbrown transition ease-in-out duration-300">
                   More info
                 </p>
               </Link>
             </div>
 
-            <section className="flex flex-col lg:flex-row justify-center gap-12 lg:gap-48 px-4 py-8 lg:p-8 bg-neutral-50 border-2 border-neutral-200 rounded-xl text-2xl drop-shadow-sm md:text-4xl text-center font-semibold">
+            <section className="flex flex-col lg:flex-row justify-center gap-12 lg:gap-48 px-4 py-8 lg:p-8 bg-allium-lightbrown text-allium-cream border-2 border-allium-darkbrown rounded-xl text-2xl drop-shadow-sm md:text-4xl text-center font-semibold">
               <div>
                 <p>For merchandise:</p>
                 <Link
