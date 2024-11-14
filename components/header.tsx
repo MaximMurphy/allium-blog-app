@@ -12,7 +12,9 @@ const Header = () => {
           </Link>
           <div className="flex flex-row gap-8 lg:gap-12">
             <Link
-              href="/"
+              href="https://alliumapparel.etsy.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hover:underline underline-offset-4 decoration-lime-800"
             >
               Apparel
