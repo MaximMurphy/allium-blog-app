@@ -63,7 +63,7 @@ export default function Index({ allPosts }: Props) {
             </div>
 
             <section className="flex flex-col lg:flex-row justify-center gap-12 lg:gap-48 px-4 py-8 lg:p-8 bg-allium-lightbrown text-allium-cream border-2 border-allium-darkbrown rounded-xl text-2xl drop-shadow-sm md:text-4xl text-center font-semibold">
-              <div>
+              <div className="flex flex-col items-center justify-center">
                 <p>For merchandise:</p>
                 <Link
                   href="https://www.etsy.com/shop/AlliumApparel"
@@ -81,7 +81,7 @@ export default function Index({ allPosts }: Props) {
                   ></Image>
                 </Link>
               </div>
-              <div>
+              <div className="flex flex-col items-center justify-center">
                 <p>For inspiration:</p>
                 <Link
                   href="https://www.pinterest.com/alliumlover/"
