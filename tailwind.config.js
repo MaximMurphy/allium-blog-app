@@ -7,6 +7,9 @@ module.exports = {
         "allium-cream": "#FEFBEF",
         "allium-darkbrown": "#48321B",
         "allium-lightbrown": "#543C23",
+        "allium-green": "#365314",
+        "allium-darkgreen": "#1a2e05",
+        "allium-lightgreen": "#3f6212",
       },
       spacing: {
         28: "7rem",

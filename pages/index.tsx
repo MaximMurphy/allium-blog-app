@@ -56,7 +56,7 @@ export default function Index({ allPosts }: Props) {
                 through our company.
               </p>
               <Link href="/about" className="text-md md:text-xl font-medium">
-                <p className="p-2 border-2 border-lime-800 rounded-xl w-fit bg-lime-800 hover:bg-allium-lightbrown transition ease-in-out duration-300">
+                <p className="p-2 border-2 border-allium-green rounded-xl w-fit bg-allium-green hover:bg-allium-lightbrown hover:border-allium-lightgreen transition ease-in-out duration-300">
                   More info
                 </p>
               </Link>

@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <footer className="bg-allium-lightbrown border-t-2 border-allium-darkbrown text-allium-cream">
       <Container>
-        <div className="flex flex-col lg:flex-row items-center justify-center gap-6 lg:gap-72 py-12">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-6 py-8 md:py-12">
           <Link href="/">
             <Image
               src="/branding/15.png"
@@ -20,14 +20,10 @@ const Footer = () => {
               className="h-fit"
             />
           </Link>
-          <div className="hidden lg:flex flex-col gap-2 items-center">
-            <p className="w-fit text-xs">
-              As an Amazon Associate I earn from qualifying purchases.
-            </p>
-            <p className="w-fit text-xs">
-              &copy; {currentYear} AlliumApparel. All rights reserved.
-            </p>
-          </div>
+
+          <p className="hidden lg:flex w-fit text-xs">
+            &copy; {currentYear} AlliumApparel. All rights reserved.
+          </p>
 
           <div className="w-fit flex flex-row gap-8 text-xl md:text-3xl font-semibold">
             <Link
@@ -47,14 +43,10 @@ const Footer = () => {
               <Icon icon="simple-icons:pinterest" className="w-8 h-8" />
             </Link>
           </div>
-          <div className="lg:hidden flex flex-col gap-2 items-center text-center">
-            <p className="w-fit text-xs">
-              As an Amazon Associate I earn from qualifying purchases.
-            </p>
-            <p className="w-fit text-xs">
-              &copy; {currentYear} AlliumApparel. All rights reserved.
-            </p>
-          </div>
+
+          <p className="lg:hidden flex w-fit text-xs text-center">
+            &copy; {currentYear} AlliumApparel. All rights reserved.
+          </p>
         </div>
       </Container>
     </footer>

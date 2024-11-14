@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import useSWR from "swr";
 
-const fetcher = (url: any) => fetch(url).then((response) => response.json());
+const fetcher = (url: string) => fetch(url).then((response) => response.json());
 
 export default function Index() {
   // Use SWR for data fetching
