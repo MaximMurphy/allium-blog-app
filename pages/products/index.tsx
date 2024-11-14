@@ -1,7 +1,6 @@
 import Container from "../../components/container";
 import Layout from "../../components/layout";
 import Head from "next/head";
-import Header from "../../components/header";
 import Image from "next/image";
 import Link from "next/link";
 import useSWR from "swr";
@@ -24,7 +23,6 @@ export default function Index() {
         <Head>
           <title>Products</title>
         </Head>
-        <Header />
         <Container>
           <div className="flex flex-col gap-12 mb-36">
             <div className="flex justify-center">
@@ -40,11 +38,11 @@ export default function Index() {
             <div>
               {isLoading ? (
                 <div className="flex justify-center">
-                  <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-lime-800"></div>
+                  <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-allium-lightgreen"></div>
                 </div>
               ) : (
                 <>
-                  <p className="text-base text-center lg:text-start lg:text-xl font-semibold mb-4">
+                  <p className="text-base text-center lg:text-start lg:text-xl font-semibold mb-4 text-allium-darkbrown">
                     My recommended Amazon products:
                   </p>
 
@@ -65,20 +63,20 @@ export default function Index() {
                               className="h-72 object-scale-down flex justify-center"
                             />
                           </div>
-                          <div className="flex flex-row justify-between gap-2">
+                          <div className="flex flex-row justify-between gap-2 text-allium-darkbrown">
                             <div>
                               <div className="text-lg font-semibold">
                                 {product.name}
                               </div>
-                              <div className="text-sm text-neutral-800 mb-2">
+                              <div className="text-sm mb-2 text-allium-lightbrown">
                                 {product.excerpt}
                               </div>
                             </div>
-                            <div className="text-base text-lime-800 font-semibold mt-6">
+                            <div className="text-base text-allium-lightgreen font-semibold mt-6">
                               {product.price}
                             </div>
                           </div>
-                          <p className="text-neutral-800 font-light italic text-xs text-center mt-4">
+                          <p className="text-allium-lightbrown font-light italic text-xs text-center mt-4">
                             *This is an affiliate link*
                           </p>
                         </Link>

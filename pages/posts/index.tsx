@@ -4,7 +4,6 @@ import Layout from "../../components/layout";
 import { getAllPosts } from "../../lib/api";
 import Head from "next/head";
 import Post from "../../interfaces/post";
-import Header from "../../components/header";
 import Image from "next/image";
 
 type Props = {
@@ -18,8 +17,6 @@ export default function Index({ allPosts }: Props) {
         <Head>
           <title>Blogs</title>
         </Head>
-        <Header />
-
         <Container>
           <div className="flex justify-center ">
             <Image

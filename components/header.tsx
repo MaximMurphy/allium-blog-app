@@ -31,7 +31,7 @@ const Header = () => {
           </Link>
           <button
             onClick={handleMenuToggle}
-            className="lg:hidden p-2 text-3xl font-normal rounded-xl w-16 h-fit"
+            className="lg:hidden p-2 text-3xl font-normal rounded-xl w-16 h-fit text-allium-darkbrown"
           >
             {menuOpen ? <span>-</span> : <span>+</span>}
           </button>

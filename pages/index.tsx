@@ -4,7 +4,6 @@ import Layout from "../components/layout";
 import { getAllPosts } from "../lib/api";
 import Head from "next/head";
 import Post from "../interfaces/post";
-import Header from "../components/header";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -24,17 +23,15 @@ export default function Index({ allPosts }: Props) {
           />
         </Head>
 
-        <Header />
         <Container>
-          <div className="flex flex-col mb-24">
+          <div className="flex flex-col mb-12">
             <div className="flex justify-center lg:mt-8">
               <Image
                 src="/branding/16.png"
                 width={2500}
                 height={500}
                 alt="Hello, Chef!"
-                className="w-72 lg:w-[32rem]"
-                quality={65}
+                className="w-72 lg:w-[40rem]"
                 priority={true}
               />
             </div>
@@ -46,24 +43,23 @@ export default function Index({ allPosts }: Props) {
               alt="Allium"
               className="w-96 md:w-fit lg:-mt-6 mb-6 lg:mb-0"
               priority={true}
-              quality={65}
             />
-            <div className="p-6 lg:p-8 bg-allium-lightbrown border-2 border-allium-darkbrown rounded-xl mb-12 drop-shadow-sm text-allium-cream">
-              <p className="text-2xl md:text-4xl text-justify mb-8">
+            <div className="p-6 lg:p-8 border-y lg:border-y-2 border-allium-darkbrown mb-12 text-allium-darkbrown">
+              <p className="text-2xl md:text-4xl text-justify text-pretty mb-8">
                 At Allium, our brand is a testament to our deep-rooted passion
-                for food. We recognize the essential role of Alliums like Garlic
-                and Onions in the culinary realm and aim to celebrate them
-                through our company.
+                for food. We recognize the essential role of Alliums, like
+                Garlic and Onions, in the culinary realm and aim to celebrate
+                them through our company.
               </p>
-              <Link href="/about" className="text-md md:text-xl font-medium">
-                <p className="p-2 border-2 border-allium-green rounded-xl w-fit bg-allium-green hover:bg-allium-lightbrown hover:border-allium-lightgreen transition ease-in-out duration-300">
+              <Link href="/about" className="text-base md:text-xl font-medium">
+                <p className="p-2 border-2 border-allium-green rounded-xl w-fit bg-allium-green hover:bg-allium-cream hover:border-allium-darkgreen text-allium-cream hover:text-allium-darkgreen transition ease-in-out duration-300">
                   More info
                 </p>
               </Link>
             </div>
 
-            <section className="flex flex-col lg:flex-row justify-center gap-12 lg:gap-48 px-4 py-8 lg:p-8 bg-allium-lightbrown text-allium-cream border-2 border-allium-darkbrown rounded-xl text-2xl drop-shadow-sm md:text-4xl text-center font-semibold">
-              <div className="flex flex-col items-center justify-center">
+            <section className="flex flex-col lg:flex-row justify-center gap-12 lg:gap-48 text-allium-cream text-2xl md:text-3xl font-medium">
+              <div className="flex flex-col items-center justify-center bg-allium-green border-2 border-allium-darkgreen rounded-xl px-4 py-8 lg:p-8">
                 <p>For merchandise:</p>
                 <Link
                   href="https://www.etsy.com/shop/AlliumApparel"
@@ -81,7 +77,7 @@ export default function Index({ allPosts }: Props) {
                   ></Image>
                 </Link>
               </div>
-              <div className="flex flex-col items-center justify-center">
+              <div className="flex flex-col items-center justify-center bg-allium-green border-2 border-allium-darkgreen rounded-xl px-4 py-8 lg:p-8">
                 <p>For inspiration:</p>
                 <Link
                   href="https://www.pinterest.com/alliumlover/"
@@ -101,13 +97,15 @@ export default function Index({ allPosts }: Props) {
               </div>
             </section>
           </div>
-          <Link
-            href="/posts"
-            className="text-3xl md:text-5xl font-semibold hover:underline underline-offset-4 decoration-lime-800"
-          >
-            Blog
-          </Link>
-          {allPosts.length > 0 && <MoreStories posts={allPosts} />}
+          <div className="p-6 lg:p-8 flex flex-col border-y lg:border-y-2 border-allium-darkbrown mb-24">
+            <Link
+              href="/posts"
+              className="text-3xl md:text-5xl font-semibold hover:underline underline-offset-4 decoration-allium-lightgreen text-allium-darkbrown"
+            >
+              Blog
+            </Link>
+            {allPosts.length > 0 && <MoreStories posts={allPosts} />}
+          </div>
         </Container>
       </Layout>
     </>

@@ -1,7 +1,6 @@
 import Container from "../../components/container";
 import Layout from "../../components/layout";
 import Head from "next/head";
-import Header from "../../components/header";
 import Image from "next/image";
 
 export default function Index() {
@@ -11,8 +10,6 @@ export default function Index() {
         <Head>
           <title>About Us</title>
         </Head>
-        <Header />
-
         <Container>
           <div className="flex flex-col items-center mb-12">
             <Image
@@ -33,7 +30,7 @@ export default function Index() {
               priority={true}
             ></Image>
           </div>
-          <div className="text-justify text-2xl lg:text-4xl flex flex-col gap-4 mb-24">
+          <div className="text-justify text-2xl lg:text-4xl flex flex-col gap-4 mb-24 text-allium-darkbrown">
             <p className="h-fit leading-normal font-semibold">
               What are Alliums?
             </p>
