@@ -5,6 +5,8 @@ import Image from "next/image";
 import { Icon } from "@iconify/react";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="bg-allium-lightbrown border-t-2 border-allium-darkbrown text-allium-cream">
       <Container>
@@ -23,7 +25,7 @@ const Footer = () => {
               As an Amazon Associate I earn from qualifying purchases.
             </p>
             <p className="w-fit text-xs">
-              © 2023 AlliumApparel. All rights reserved.
+              &copy; {currentYear} AlliumApparel. All rights reserved.
             </p>
           </div>
 
@@ -50,7 +52,7 @@ const Footer = () => {
               As an Amazon Associate I earn from qualifying purchases.
             </p>
             <p className="w-fit text-xs">
-              © 2024 AlliumApparel. All rights reserved.
+              &copy; {currentYear} AlliumApparel. All rights reserved.
             </p>
           </div>
         </div>
