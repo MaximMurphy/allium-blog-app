@@ -84,7 +84,12 @@ const Header = () => {
           </div>
         </div>
         {menuOpen && (
-          <div className="absolute h-screen w-full overflow-hidden overscroll-contain bg-allium-darkbrown flex flex-col items-start justify-start gap-6 p-12 text-allium-cream text-[3rem] font-semibold tracking-normal">
+          <div
+            className={clsx(
+              "absolute h-screen w-full overflow-hidden overscroll-contain bg-allium-darkbrown flex flex-col items-start justify-start gap-6 p-12 text-allium-cream text-[3rem] font-semibold tracking-normal",
+              "animate-fadeIn"
+            )}
+          >
             <Link
               href="/"
               className={clsx({

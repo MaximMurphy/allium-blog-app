@@ -30,6 +30,20 @@ module.exports = {
         sm: "0 5px 10px rgba(0, 0, 0, 0.12)",
         md: "0 8px 30px rgba(0, 0, 0, 0.12)",
       },
+      keyframes: {
+        fadeIn: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 },
+        },
+        fadeOut: {
+          "0%": { opacity: 1 },
+          "100%": { opacity: 0 },
+        },
+      },
+      animation: {
+        fadeIn: "fadeIn 0.2s",
+        fadeOut: "fadeOut 0.2s",
+      },
     },
   },
   plugins: [],
