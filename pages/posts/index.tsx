@@ -18,18 +18,20 @@ export default function Index({ allPosts }: Props) {
           <title>Blogs</title>
         </Head>
         <Container>
-          <div className="flex justify-center ">
-            <Image
-              src="/branding/tabs/2.png"
-              height={500}
-              width={2500}
-              alt="Posts"
-              className="w-96"
-              quality={65}
-            ></Image>
-          </div>
+          <div className="mb-24">
+            <div className="flex justify-center ">
+              <Image
+                src="/branding/tabs/2.png"
+                height={500}
+                width={2500}
+                alt="Posts"
+                className="w-96"
+                quality={65}
+              ></Image>
+            </div>
 
-          {allPosts.length > 0 && <MoreStories posts={allPosts} />}
+            {allPosts.length > 0 && <MoreStories posts={allPosts} />}
+          </div>
         </Container>
       </Layout>
     </>

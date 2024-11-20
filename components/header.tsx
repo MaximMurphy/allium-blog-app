@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <>
       <section className="bg-allium-cream top-0 z-50 sticky w-full mb-8 transition duration-300 border-y lg:border-y-2 border-allium-darkbrown">
-        <div className="h-20 lg:h-fit flex flex-row w-full text-lg lg:text-2xl items-center justify-between font-medium lg px-12 lg:px-32 py-2">
+        <div className="h-20 lg:h-fit flex flex-row w-full text-lg lg:text-2xl items-center justify-between font-semibold lg px-12 lg:px-32 py-2">
           <Link href="/">
             <Image
               src="/branding/10.png"

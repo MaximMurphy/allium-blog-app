@@ -43,11 +43,16 @@ module.exports = {
           "0%": { transform: "rotate(0deg)" },
           "100%": { transform: "rotate(360deg)" },
         },
+        marquee: {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-100%)" },
+        },
       },
       animation: {
         fadeIn: "fadeIn 0.2s",
         fadeOut: "fadeOut 0.2s",
         spinSlow: "spinSlow 15s linear infinite",
+        marquee: "marquee 25s linear infinite",
       },
     },
   },

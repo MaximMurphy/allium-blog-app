@@ -8,7 +8,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-allium-green border-y-2 border-allium-darkbrown text-allium-cream px-4 py-12 lg:py-16">
+    <footer className="bg-allium-green border-y lg:border-y-2 border-allium-darkbrown text-allium-cream px-4 py-12 lg:py-16">
       <Container>
         <div className="flex flex-row items-start justify-between mb-12 gap-4">
           <Link href="/">
@@ -46,18 +46,20 @@ const Footer = () => {
             </Link>
           </div>
         </div>
-        <div className="w-full lg:w-64 text-lg flex flex-row items-start justify-between mb-12">
-          <div className="flex flex-col gap-4">
-            <Link href="/about">About</Link>
-            <Link href="/blog">Blog</Link>
-            <Link href="/contact">Contact</Link>
-          </div>
-          <div className="flex flex-col gap-4">
-            <Link href="/apparel">Apparel</Link>
-            <Link href="/products">Products</Link>
+        <div className="relative flex">
+          <div className="w-full lg:w-64 text-lg flex flex-row items-start justify-between mb-12 py-4 border-y lg:border-none border-allium-darkgreen">
+            <div className="flex flex-col gap-4">
+              <Link href="/about">About</Link>
+              <Link href="/blog">Blog</Link>
+              <Link href="/contact">Contact</Link>
+            </div>
+            <div className="flex flex-col gap-4">
+              <Link href="/apparel">Apparel</Link>
+              <Link href="/products">Products</Link>
+            </div>
           </div>
         </div>
-        <div className="flex flex-col items-start justify-center gap-4 text-justify">
+        <div className="flex flex-col items-start justify-center gap-4 text-justify text-allium-cream/60">
           <p className="w-fit text-xs">
             &copy; {currentYear} AlliumApparel. All rights reserved.
           </p>

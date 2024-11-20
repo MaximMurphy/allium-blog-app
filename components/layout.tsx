@@ -1,5 +1,6 @@
 import Footer from "./footer";
 import Header from "./header";
+import Marquee from "./marquee";
 import Meta from "./meta";
 
 type Props = {
@@ -15,6 +16,7 @@ const Layout = ({ preview, children }: Props) => {
       <div className="h-full">
         <main>{children}</main>
       </div>
+      <Marquee />
       <Footer />
     </>
   );
