@@ -41,7 +41,7 @@ const Header = () => {
               target="_blank"
               className={clsx({
                 [activeDesktopLinkStyles]: router.pathname === "/apparel",
-                "hover:underline underline-offset-4 decoration-allium-lightgreen":
+                "hover:underline decoration-2  underline-offset-4 decoration-allium-lightgreen":
                   router.pathname !== "/apparel",
               })}
             >
@@ -51,7 +51,7 @@ const Header = () => {
               href="/products"
               className={clsx({
                 [activeDesktopLinkStyles]: router.pathname === "/products",
-                "hover:underline underline-offset-4 decoration-allium-lightgreen":
+                "hover:underline decoration-2 underline-offset-4 decoration-allium-lightgreen":
                   router.pathname !== "/products",
               })}
             >
@@ -61,7 +61,7 @@ const Header = () => {
               href="/posts"
               className={clsx({
                 [activeDesktopLinkStyles]: router.pathname === "/posts",
-                "hover:underline underline-offset-4 decoration-allium-lightgreen":
+                "hover:underline decoration-2 underline-offset-4 decoration-allium-lightgreen":
                   router.pathname !== "/posts",
               })}
             >

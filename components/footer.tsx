@@ -1,51 +1,70 @@
 import Container from "./container";
-import { EXAMPLE_PATH } from "../lib/constants";
 import Link from "next/link";
 import Image from "next/image";
 import { Icon } from "@iconify/react";
+import AlliumFooterLogo from "/public/branding/20.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-allium-darkbrown border-y-2 border-allium-darkbrown text-allium-cream">
+    <footer className="bg-allium-green border-y-2 border-allium-darkbrown text-allium-cream px-4 py-12 lg:py-16">
       <Container>
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-6 py-8 md:py-12">
+        <div className="flex flex-row items-start justify-between mb-12 gap-4">
           <Link href="/">
             <Image
-              src="/branding/15.png"
-              width={160}
-              height={160}
+              src={AlliumFooterLogo}
+              width={2400}
+              height={600}
               alt="Allium"
-              className="h-fit"
+              placeholder="blur"
+              className="h-12 lg:h-16 w-auto"
             />
           </Link>
-
-          <p className="hidden lg:flex w-fit text-xs">
-            &copy; {currentYear} AlliumApparel. All rights reserved.
-          </p>
-
-          <div className="w-fit flex flex-row gap-8 text-xl md:text-3xl font-semibold">
+          <div className="w-fit flex flex-row gap-6 lg:gap-8 font-semibold mt-2 lg:mt-0">
             <Link
               href="https://www.etsy.com/shop/AlliumApparel"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:underline hover:text-orange-600 transition ease-in-out duration-300"
             >
-              <Icon icon="simple-icons:etsy" />
+              <Icon
+                icon="simple-icons:etsy"
+                className="w-6 h-6 lg:w-8 lg:h-8"
+              />
             </Link>
             <Link
               href="https://www.pinterest.com/alliumlover/"
               target="_blank"
               rel="noopener noreferrer"
-              className="-mt-2 md:mt-0 hover:underline hover:text-red-600 transition ease-in-out duration-300"
+              className="hover:underline hover:text-red-600 transition ease-in-out duration-300"
             >
-              <Icon icon="simple-icons:pinterest" className="w-8 h-8" />
+              <Icon
+                icon="simple-icons:pinterest"
+                className="w-6 h-6 lg:w-8 lg:h-8"
+              />
             </Link>
           </div>
-
-          <p className="lg:hidden flex w-fit text-xs text-center">
+        </div>
+        <div className="w-full lg:w-64 text-lg flex flex-row items-start justify-between mb-12">
+          <div className="flex flex-col gap-4">
+            <Link href="/about">About</Link>
+            <Link href="/blog">Blog</Link>
+            <Link href="/contact">Contact</Link>
+          </div>
+          <div className="flex flex-col gap-4">
+            <Link href="/apparel">Apparel</Link>
+            <Link href="/products">Products</Link>
+          </div>
+        </div>
+        <div className="flex flex-col items-start justify-center gap-4 text-justify">
+          <p className="w-fit text-xs">
             &copy; {currentYear} AlliumApparel. All rights reserved.
+          </p>
+          <p className="w-fit text-xs">
+            As an Amazon Associate I earn from qualifying purchases. Allium
+            receives a commission on all purchases made through our Amazon
+            links.
           </p>
         </div>
       </Container>

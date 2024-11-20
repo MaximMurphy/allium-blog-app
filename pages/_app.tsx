@@ -1,9 +1,17 @@
 import { AppProps } from "next/app";
 import "../styles/index.css";
 
-import { Mulish, Lora, Montserrat, Open_Sans, Inter } from "next/font/google";
+import {
+  Mulish,
+  Lora,
+  Montserrat,
+  Open_Sans,
+  Inter,
+  Nunito,
+  Rubik,
+} from "next/font/google";
 
-const font = Inter({
+const font = Mulish({
   subsets: ["latin"],
 });
 
