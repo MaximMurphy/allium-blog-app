@@ -76,9 +76,6 @@ export default function Index() {
                               {product.price}
                             </div>
                           </div>
-                          <p className="text-allium-lightbrown font-light italic text-xs text-center mt-4">
-                            *This is an affiliate link*
-                          </p>
                         </Link>
                       </li>
                     ))}

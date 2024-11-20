@@ -37,8 +37,7 @@ const Header = () => {
           </button>
           <div className="hidden lg:flex flex-row items-center justify-center gap-8 lg:gap-12 text-allium-darkbrown">
             <Link
-              href="https://alliumapparel.etsy.com"
-              target="_blank"
+              href="/apparel"
               className={clsx({
                 [activeDesktopLinkStyles]: router.pathname === "/apparel",
                 "hover:underline decoration-2  underline-offset-4 decoration-allium-lightgreen":
@@ -86,8 +85,7 @@ const Header = () => {
               HOME
             </Link>
             <Link
-              href="https://alliumapparel.etsy.com"
-              target="_blank"
+              href="/apparel"
               rel="noopener noreferrer"
               className={clsx({
                 [activeLinkStyles]: router.pathname === "/apparel",

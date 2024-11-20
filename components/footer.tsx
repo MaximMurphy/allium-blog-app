@@ -20,11 +20,18 @@ const Footer = () => {
       <div className="fixed w-full bottom-0 h-[36rem] lg:h-[40rem] bg-allium-green text-allium-cream px-4 lg:px-12 pt-12 lg:pt-16">
         <div className="w-full lg:w-96 text-base lg:text-lg flex flex-row items-start justify-between mb-24 lg:mb-36 px-8 text-left py-6 lg:py-0 border-y lg:border-none border-allium-darkgreen">
           <div className="flex flex-col gap-4">
-            <Link href="/" className="w-full">
+            <Link href="/" className="w-full hover:underline">
               Home
             </Link>
-            <Link href="/about">About</Link>
-            <Link href="/contact">Contact</Link>
+            <Link href="/about" className="w-full hover:underline">
+              About
+            </Link>
+            <Link
+              href="mailto:alliumkitchen@gmail.com"
+              className="w-full hover:underline"
+            >
+              Contact
+            </Link>
             <Link
               href="https://www.etsy.com/shop/AlliumApparel"
               target="_blank"
@@ -38,9 +45,15 @@ const Footer = () => {
             </Link>
           </div>
           <div className="flex flex-col gap-4">
-            <Link href="/apparel">Apparel</Link>
-            <Link href="/products">Products</Link>
-            <Link href="/blog">Blog</Link>
+            <Link href="/apparel" className="w-full hover:underline">
+              Apparel
+            </Link>
+            <Link href="/products" className="w-full hover:underline">
+              Products
+            </Link>
+            <Link href="/blog" className="w-full hover:underline">
+              Blog
+            </Link>
             <Link
               href="https://www.pinterest.com/alliumlover/"
               target="_blank"

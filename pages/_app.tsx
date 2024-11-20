@@ -18,7 +18,7 @@ const font = Mulish({
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <main
-      className={`w-full ${font.className} tracking-wider leading-normal bg-allium-cream`}
+      className={`w-full ${font.className} tracking-wider leading-normal bg-allium-cream text-allium-darkbrown`}
     >
       <Component {...pageProps} />
     </main>
