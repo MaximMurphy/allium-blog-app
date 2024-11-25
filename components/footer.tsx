@@ -55,7 +55,7 @@ const Footer = () => {
               Blog
             </Link>
             <Link
-              href="https://www.pinterest.com/alliumlover/"
+              href="https://www.pinterest.com/alliumapparel/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:underline hover:text-red-600 transition ease-in-out duration-300"

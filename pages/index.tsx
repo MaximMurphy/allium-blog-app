@@ -131,7 +131,7 @@ export default function Index({ allPosts }: Props) {
               <div className="flex flex-col items-center justify-center bg-allium-green border-2 border-allium-darkgreen rounded-xl p-4 lg:p-8">
                 <p>For inspiration:</p>
                 <Link
-                  href="https://www.pinterest.com/alliumlover/"
+                  href="https://www.pinterest.com/alliumapparel/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-red-600 hover:animate-pulse"
