@@ -3,19 +3,23 @@ import Layout from "../../components/layout";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import useSWR from "swr";
+//import useSWR from "swr";
+import customData from "../../products2.json";
 
 const fetcher = (url: string) => fetch(url).then((response) => response.json());
 
 export default function Index() {
   // Use SWR for data fetching
+
+  /*
   const { data, error } = useSWR(
     "https://api.jsonsilo.com/public/28963166-31f3-4ed6-9a02-e0547b884b87",
     fetcher
   );
+*/
 
   // Check if data is being fetched
-  const isLoading = !data && !error;
+  const isLoading = !customData;
 
   return (
     <>
@@ -47,7 +51,7 @@ export default function Index() {
                   </p>
 
                   <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                    {Object.values(data).map((product: any) => (
+                    {Object.values(customData).map((product: any) => (
                       <li
                         key={product.id}
                         className="border-2 p-4 rounded-lg hover:shadow-inner hover:shadow-allium-lightbrown transition duration-300 bg-white border-allium-lightbrown"

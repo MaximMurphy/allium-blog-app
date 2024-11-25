@@ -1,0 +1,172 @@
+{
+  "product1": {
+    "id": 1,
+    "link": "https://amzn.to/4eUB1b2",
+    "name": "CAROTE Non Stick Pots and Pans, 11pcs Kitchen Set",
+    "slug": "carote-non-stick-pots-and-pans",
+    "image": "/products/carote.jpg",
+    "price": "$54.99",
+    "excerpt": "Optimal storage and versatile multitasking cookware set with detachable handles.",
+    "description": "For a clutter-free cabinet: Optimal storage and easy stacking with the handles off saves up to 70% more space of Carote detachable handle pots and pans set. Removable handle for the ultimate versatility– go from ALL kinds of stoves to the oven, to the grill, to the fridge, and onto the table in a click. The handle is upgraded for secure use during cooking. Cleanup with ZERO elbow grease thanks to the non-stick ability."
+  },
+  "product2": {
+    "id": 2,
+    "link": "https://amzn.to/415EsrU",
+    "name": "Fullstar Vegetable Chopper",
+    "slug": "fullstar-vegetable-chopper",
+    "image": "/products/chopper.jpg",
+    "price": "$24.86",
+    "excerpt": "Effortlessly dice vegetables with this time-saving kitchen gadget.",
+    "description": "This unique kitchen gadget is bound to save you time, effortlessly dicing up your vegetables! Dice potatoes, tomatoes, cucumbers, carrots, and more with the heavy-duty, rust-resistant blades. The 420 stainless steel blades retain razor sharpness for crisp, smooth dicing. Perfect for anyone looking to eat healthier with minimal prep time."
+  },
+  "product3": {
+    "id": 3,
+    "link": "https://amzn.to/41mwYRJ",
+    "name": "Nextmug - Temperature-Controlled, Self-Heating Coffee Mug",
+    "slug": "nextmug-temperature-controlled-mug",
+    "image": "/products/mug.jpg",
+    "price": "$89.95",
+    "excerpt": "Keep your coffee at the perfect temperature with Nextmug.",
+    "description": "This little gadget is the perfect gift for any coffee or tea lover. The Nextmug will keep your hot coffee, tea, or preferred beverage at the perfect temperature wherever you are. Select from Warm (130°), Hot (140°), or Piping (150°) settings to enjoy for hours."
+  },
+  "product4": {
+    "id": 4,
+    "link": "https://amzn.to/4g7fOLX",
+    "name": "Our Place Wonder Oven | 6-in-1 Air Fryer & Toaster Oven",
+    "slug": "our-place-wonder-oven",
+    "image": "/products/airfryer.jpg",
+    "price": "$149.00",
+    "excerpt": "Compact and efficient 6-in-1 air fryer and toaster oven with steam technology.",
+    "description": "This adorable multi-purpose air fryer brings life into your kitchen! Air fry, toast, roast, bake, reheat, and broil with added steam infusion technology for perfectly-cooked food. Preheats 75% faster and cooks up to 30% faster than traditional ovens, making mealtime a breeze."
+  },
+  "product5": {
+    "id": 5,
+    "link": "https://amzn.to/3Z8qUcN",
+    "name": "Ninja Knife Set, Knife Sharpener, Knife Block 12 Piece Set",
+    "slug": "ninja-knife-set",
+    "image": "/products/ninjaknives.jpg",
+    "price": "$149.99",
+    "excerpt": "Premium stainless steel knives with a built-in sharpener.",
+    "description": "This versatile knife set conveniently comes with a knife block and a built-in sharpener to ensure you always get the best cuts. These premium blades, forged from German stainless steel, are rust-resistant and strong enough for all your kitchen tasks."
+  },
+  "product6": {
+    "id": 6,
+    "link": "https://amzn.to/4g7hUeN",
+    "name": "CHEFMAN Indoor Pizza Oven - Makes 12 Inch Pizzas in Minutes",
+    "slug": "chefman-indoor-pizza-oven",
+    "image": "/products/pizza.jpg",
+    "price": "$199.99",
+    "excerpt": "Quickly cook restaurant-quality pizza with this sleek countertop oven.",
+    "description": "Perfect for countertop use, the Chefman pizza oven quickly cooks up restaurant-quality pizza using up to 800°F temperature settings. Choose from preset options like Neapolitan, New York, Thin-Crust, Pan, or Frozen."
+  },
+  "product7": {
+    "id": 7,
+    "link": "https://amzn.to/3V6vTJu",
+    "name": "KITCHENAID Quilted Cotton Terry Cloth Oven Mitt",
+    "slug": "kitchenaid-oven-mitt",
+    "image": "/products/mitts.jpg",
+    "price": "$24.00",
+    "excerpt": "Stylish and heat-resistant quilted oven mitt and pot holder set.",
+    "description": "This oven mitt set includes two absorbent, textured terrycloth kitchen towels, one dual-layered quilted pot holder, and one dual-layered oven mitt with a non-slip silicone grip and high heat resistance. Made of insulated, heat-resistant cotton for ultimate protection."
+  },
+  "product8": {
+    "id": 8,
+    "link": "https://amzn.to/3PSiFhf",
+    "name": "Cuisinart AirFryer Oven & Grill",
+    "slug": "cuisinart-air-fryer",
+    "image": "/products/cuisinart-air-fryer.jpg",
+    "price": "$166.69",
+    "excerpt": "Revolutionize your cooking with Cuisinart's AirFryer Oven & Grill.",
+    "description": "Upgrade your kitchen game with Cuisinart’s Air Fryer Toaster Oven with Grill. Sear steaks, grill breakfast, and bake cookies, all in one versatile appliance."
+  },
+  "product9": {
+    "id": 9,
+    "link": "https://amzn.to/3Lyglty",
+    "name": "Ninja Air Fryer",
+    "slug": "ninja-air-fryer",
+    "image": "/products/nina-air-fryer.jpg",
+    "price": "$99.99",
+    "excerpt": "Cook faster with the Ninja Air Fryer.",
+    "description": "Skip preheating and savor quick, crispy meals with the Ninja Air Fryer. It's all about even hot air circulation and flavorful results!"
+  },
+  "product10": {
+    "id": 10,
+    "link": "https://amzn.to/3LCQpgq",
+    "name": "Keurig K-Elite Coffee Maker",
+    "slug": "keurig-coffee-maker",
+    "image": "/products/keurig.jpg",
+    "price": "$119.99",
+    "excerpt": "Brew your perfect cup with Keurig's K-Elite Coffee Maker.",
+    "description": "Experience modern design and customizable coffee with the Keurig K-Elite brewer. It's all about that striking brushed finish and a refreshing iced coffee option!"
+  },
+  "product11": {
+    "id": 11,
+    "link": "https://amzn.to/3EUxE4a",
+    "name": "Keurig K-Classic Coffee Maker",
+    "slug": "keurig-k-classic-coffee-maker",
+    "image": "/products/keurig-2.jpg",
+    "price": "$99.99",
+    "excerpt": "Enjoy hassle-free coffee with the Keurig K-Classic Coffee Maker.",
+    "description": "Brewing's a breeze with the Keurig K-Classic. Choose your cup size, flavor, and let the 48oz reservoir do the rest."
+  },
+  "product12": {
+    "id": 12,
+    "link": "https://amzn.to/3taeTqQ",
+    "name": "Cuisinart 15-Piece Carbon Steel Knife Set",
+    "slug": "cuisinart-knife-set",
+    "image": "/products/cuisinart-knife-block.jpg",
+    "price": "$99.95",
+    "excerpt": "Elevate your kitchen with Cuisinart's 15-Piece Knife Set.",
+    "description": "Precision and style unite in the Cuisinart Classic Forged Triple Rivet Cutlery. This 15-piece set is all about superior blades and perfect stability."
+  },
+  "product13": {
+    "id": 13,
+    "link": "https://amzn.to/3thKQgI",
+    "name": "Chicago Cutlery Insignia Stainless Steel Knife Set",
+    "slug": "chicago-cutlery-knife-set",
+    "image": "/products/chicago-knife-block.jpg",
+    "price": "$93.00",
+    "excerpt": "Level up your cutlery with Chicago Cutlery's 18-Piece Knife Set.",
+    "description": "Quality meets durability in the Chicago Cutlery Insignia set. Enjoy sharp, stain-resistant blades and the convenience of a built-in sharpener."
+  },
+  "product14": {
+    "id": 14,
+    "link": "https://amzn.to/3ZvNdsu",
+    "name": "HUNTER Dishwasher Safe Knife Set with Sharpener",
+    "slug": "hunter-knife-set",
+    "image": "/products/hunter-knife-block.jpg",
+    "price": "$39.99",
+    "excerpt": "Upgrade your kitchen with the HUNTER Dishwasher Safe Knife Set.",
+    "description": "Say hello to stain-resistant, rust-free knives. This 24-piece set includes everything you need, from chef's knives to a built-in sharpener."
+  },
+  "product15": {
+    "id": 15,
+    "link": "https://amzn.to/3PTSiYA",
+    "name": "Mueller Austria Immersion Multi-Purpose Hand Blender",
+    "slug": "mueller-immersion-blender",
+    "image": "/products/mueller-immersion-blender.jpg",
+    "price": "$29.97",
+    "excerpt": "Blend, froth, and whisk with the Mueller Austria Hand Blender.",
+    "description": "Meet your culinary multitool. The Mueller Austria Immersion Hand Blender makes blending, chopping, and whipping a breeze. It even comes with frother and whisk attachments!"
+  },
+  "product16": {
+    "id": 16,
+    "link": "https://amzn.to/457BNMH",
+    "name": "CAROTE Nonstick Granite Cookware Set",
+    "slug": "carote-cookware-set",
+    "image": "/products/carote-pan-set.jpg",
+    "price": "$79.99",
+    "excerpt": "Upgrade your cookware with CAROTE's Nonstick Granite Set.",
+    "description": "Experience 10x Ultra Non-stick performance with CAROTE's granite pan set. Your recipes deserve this level of star treatment."
+  },
+  "product17": {
+    "id": 17,
+    "link": "https://amzn.to/48oU3UV",
+    "name": "Cuisinart Round Classic Waffle Maker",
+    "slug": "cuisinart-waffle-maker",
+    "image": "/products/cuisinart-waffle-maker.jpg",
+    "price": "$29.95",
+    "excerpt": "Revolutionize your waffles with the Cuisinart Round Classic Waffle Maker.",
+    "description": "Bake perfect waffles in no time with this stainless steel beauty. It's all about nonstick plates, browning control, and breakfast innovation."
+  }
+}
